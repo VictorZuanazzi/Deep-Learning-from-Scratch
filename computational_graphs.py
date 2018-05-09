@@ -629,7 +629,7 @@ def compute_gradients(loss):
 class GradientDescentOptimizer:
     def __init__(self, learning_rate):
         self.learning_rate = learning_rate
-        print ('I am at', self, 'learning rate: ', self.learning_rate)
+        #print ('I am at', self, 'learning rate: ', self.learning_rate)
     
     def minimizer(self, loss):
         learning_rate = self.learning_rate
